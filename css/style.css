@@ -1,0 +1,30 @@
+/*=======Таблица=======*/
+
+table {
+    border: solid 3px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th {
+    background-color: #1A1F25;
+    color: #AEB3B9;
+}
+
+td,
+tr {
+    color: #3E3E3E;
+}
+
+th,
+td,
+tr {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #3E3E3E;
+}
+
+[rowspan],
+[colspan] {
+    text-align: center;
+}
